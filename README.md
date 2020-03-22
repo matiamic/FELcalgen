@@ -34,6 +34,8 @@
 
 ## TROUBLESHOOTING
 
+0. je potreba python3
+
 1. jeslti pouzivats windows: na windows to jde proste blbe 
    (zkust imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
    (taky to zkus spustit jako spravce)
