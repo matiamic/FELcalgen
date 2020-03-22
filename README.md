@@ -3,9 +3,10 @@
 ## nase spolecne dilo: http://collabedit.com/9pvxd
 
 ## JAK NA TO?
+0. v terminalu bez do slozky ve ktere chces delat vedu a naklonuj si tenhle repositar: `git clone https://github.com/matiamic/felcalgen`
 
-1. rozjed generate_calendar.sh (linux/MacOS, na windowsech treba ve virtualboxu)   
-   (je mozne pouzit i generate_calendar.bat pro windows, ale hodne jsem strilel od oka, a spis to fungovat nebude,
+1. rozjed `./generate_calendar.sh` (linux/MacOS, na windowsech treba ve virtualboxu)   
+   (je mozne pouzit i `generate_calendar.bat` pro windows, ale hodne jsem strilel od kolen, a spis to fungovat nebude,
    na win vam to muze omylem nainstalovat ics a requests moduly do system-wide pythonu)  
    co by to melo delat:
    a) jestli neni v lokalnim adresari virtualni prostredi pro python3, vyrobi ho to a nainstaluje
@@ -37,18 +38,18 @@
    (zkust imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
    (taky to zkust spustit jako spravce)
 
-2. jestli ti to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budets mit), 
-   to muzes udelat manualne pip / pip3 install virtualenv a pak by ten kod mel dobehnout (snad)
+2. jestli ti to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budes mit), 
+   to muzes udelat manualne pip `install virtualenv` / `pip3 install virtualenv` a pak by ten kod mel dobehnout (snad)
 
 3. dosla ti trpelivost?  
-   manualne si nainstalujt ics a request do system-wide pythonu  
-   (pip / pip3 install ics requests)  
-   a rozjedt calgen.py, jako kdybys spoustel vlastni program (python / python3 calgen.py)
+   manualne si nainstaluj ics a request do system-wide pythonu  
+   `pip install ics requests` / `pip3 install ics requests)`  
+   a rozjedt calgen.py, jako kdybys spoustel vlastni program `python calgen.py` / `python3 calgen.py`
 
 ## FAQ
 
 1-Q. Jak poznam, ze je vsechno vpohode?  
-1-A. Do felcal.ics se ulozi tvuj kalendar, je to plain text, takze se muzes podivat dovnitr, kde by to melo vypadat zhruba takhle:  
+1-A. Do felcal.ics se ulozi tvuj kalendar, je to plain text, takze se muzes podivat dovnitr (treba `cat felcal.ics`), kde by to melo vypadat zhruba takhle:  
 
 BEGIN:VCALENDAR  
 VERSION:2.0  
