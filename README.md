@@ -35,7 +35,7 @@
 ## TROUBLESHOOTING
 
 0. je potreba python3, pip a pripojeni k internetu  
-   PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip.py`
+   PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip.sh`
    PYTHON: pro instalaci python3 muzou ubuntari pouzit `sudo apt-get install python3`
    
 1. jeslti pouzivas windows: na windows to jde proste blbe 
