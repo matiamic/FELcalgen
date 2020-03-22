@@ -1,0 +1,128 @@
+FORMAT:
+jmeno predmetu [[KyR, OI, ...]]
+zacatek
+konec
+popis
+url
+location aka MS Teams, BBB, YouTube, ...
+ucitele
+INPUTSTART
+
+KYRSTART
+
+APO - konsultace [KyR][OI]
+2020-03-23 11:00:00
+2020-03-23 12:30:00
+Chaos for life ~ Pavel Pisa
+https://cw.fel.cvut.cz/wiki/courses/b35apo/start
+BBB
+Pavel Pisa
+
+MTB - cviceni [KyR]
+2020-03-23 16:15:00
+2020-03-23 18:30:00
+MATLAB
+https://cw.fel.cvut.cz/wiki/courses/b0b17mtb/start
+MS Teams
+Miloslav Capek a kol.
+
+PRG - konsultace / prednaska [KyR]
+2020-03-24 14:30:00
+2020-03-24 16:00:00
+Programovani v C s Bartem Simpsonem
+https://cw.fel.cvut.cz/wiki/courses/b3b36prg/start
+MS Teams
+Jan Faigl
+
+FY1 - prednaska [KyR]
+2020-03-24 16:15:00
+2020-03-24 17:45:00
+Fyzika - taste the feeling
+https://moodle.fel.cvut.cz/course/view.php?id=4888
+YouTube
+Petr Konicek
+
+DRN - konsultace [KyR]
+2020-03-25 16:15:00
+2020-03-25 17:45:00
+Diferencialni rovnice a numerika
+https://moodle.fel.cvut.cz/course/view.php?id=4849
+MS Teams
+Veronika Sobotikova
+
+FY1 - cviceni [KyR]
+2020-03-25 18:00:00
+2020-03-25 19:30:00
+Fyzika
+https://moodle.fel.cvut.cz/course/view.php?id=4888
+MS Teams
+Vojtech Munzar
+
+PRG - cviceni [KyR]
+2020-03-26 08:00:00
+2020-03-26 11:00:00
+Programovani v C
+https://cw.fel.cvut.cz/wiki/courses/b3b36prg/start
+MS Teams
+Martin Zoula, Jiri Kubik
+
+FY1 - prednaska [KyR]
+2020-03-26 11:00:00
+2020-03-26 12:30:00
+Fyzika - taste the feeling
+https://moodle.fel.cvut.cz/course/view.php?id=4888
+YouTube
+Petr Konicek
+
+KYREND
+
+OISTART
+
+LGR - prednaska [OI]
+2020-03-23 09:00
+2020-03-23 11:00
+Logika a grafy
+http://math.feld.cvut.cz/gollova/lgr/lgr_distancni_vyuka.html
+Uploaduje video na jeji web
+Alena Gollova
+
+LGR - konzultace prednasky [OI]
+2020-03-23 11:00
+2020-03-23 12:00
+Logika a grafy
+http://math.feld.cvut.cz/gollova/lgr/lgr_distancni_vyuka.html
+MS Teams
+Alena Gollova
+
+LGR - konzultace cviceni [OI]
+2020-03-26 14:00
+2020-03-26 15:00
+Logika a grafy
+http://math.feld.cvut.cz/gollova/lgr/lgr_distancni_vyuka.html
+MS Teams
+Matej Dostal
+
+LGR - cviceni [OI]
+2020-03-23 20:00
+2020-03-23 21:30
+Logika a grafy
+http://math.feld.cvut.cz/dostamat/teaching/lgr1920cviceni.htm
+Bude nahravat video na jeho web
+Matej Dostal
+
+PSIA - prednaska [OI]
+2020-03-23 09:15
+2020-03-23 10:45
+Pocitacove site
+https://moodle.fel.cvut.cz/course/view.php?id=4817
+Google Hangouts
+Jiri Novak
+
+OIEND
+
+BIOMSTART
+
+BIOMEND
+
+INPUTEND
+
