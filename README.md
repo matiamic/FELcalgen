@@ -34,9 +34,11 @@
 
 ## TROUBLESHOOTING
 
-0. je potreba python3
-
-1. jeslti pouzivats windows: na windows to jde proste blbe 
+0. je potreba python3, pip a pripojeni k internetu  
+   PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip`
+   PYTHON: pro instalaci python3 muzou ubuntari pouzit `sudo apt-get install python3`
+   
+1. jeslti pouzivas windows: na windows to jde proste blbe 
    (zkust imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
    (taky to zkus spustit jako spravce)
 
@@ -46,7 +48,7 @@
 3. dosla ti trpelivost?  
    manualne si nainstaluj ics a request do system-wide pythonu  
    `pip install ics requests` / `pip3 install ics requests)`  
-   a rozjedt calgen.py, jako kdybys spoustel vlastni program `python calgen.py` / `python3 calgen.py`
+   a rozjedt calgen.py, jako kdybys spoustel(a) vlastni program `python calgen.py` / `python3 calgen.py`
 
 ## FAQ
 
