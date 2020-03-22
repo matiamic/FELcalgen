@@ -33,22 +33,22 @@
 
 ## TROUBLESHOOTING
 
-1. jeslti pouzivate windows: nepouzivejte windows  
-   (nebo zkuste imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
-   (taky to zkuste spustit jako spravce)
+1. jeslti pouzivats windows: na windows to jde proste blbe 
+   (zkust imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
+   (taky to zkust spustit jako spravce)
 
-2. jestli vam to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budete mit), 
-   to muzete udelat manualne pip / pip3 install virtualenv a pak by ten kod mel dobehnout (snad)
+2. jestli ti to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budets mit), 
+   to muzes udelat manualne pip / pip3 install virtualenv a pak by ten kod mel dobehnout (snad)
 
 3. dosla ti trpelivost?  
-   manualne si nainstalujte ics a request do system-wide pythonu  
+   manualne si nainstalujt ics a request do system-wide pythonu  
    (pip / pip3 install ics requests)  
-   a rozjedte calgen.py, jako kdybyste spousteli vlastni program (python / python3 calgen.py)
+   a rozjedt calgen.py, jako kdybys spoustel vlastni program (python / python3 calgen.py)
 
 ## FAQ
 
 1-Q. Jak poznam, ze je vsechno vpohode?  
-1-A. Do felcal.ics se ulozi vas kalendar, je to plain text, takze se muzete podivat dovnitr, kde by to melo vypadat zhruba takhle:  
+1-A. Do felcal.ics se ulozi tvuj kalendar, je to plain text, takze se muzes podivat dovnitr, kde by to melo vypadat zhruba takhle:  
 
 BEGIN:VCALENDAR  
 VERSION:2.0  
