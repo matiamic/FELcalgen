@@ -1,6 +1,6 @@
 # maintainer: matiamic@fel.cvut.cz
 
-from ics import Calendar, Event
+from ics import Calendar, Event  # for nice and easy event creation
 from datetime import timedelta
 import arrow
 from copy import deepcopy
