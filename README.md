@@ -50,11 +50,11 @@
 1-Q. Jak poznam, ze je vsechno vpohode?  
 1-A. Do felcal.ics se ulozi vas kalendar, je to plain text, takze se muzete podivat dovnitr, kde by to melo vypadat zhruba takhle:  
 
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DESCRIPTION:Programovani v C s Bartem Simpsonem - Jan Faigl
-DTEND:20200331T140000Z
+BEGIN:VCALENDAR  
+VERSION:2.0  
+PRODID:ics.py - http://git.io/lLljaA  
+BEGIN:VEVENT  
+DESCRIPTION:Programovani v C s Bartem Simpsonem - Jan Faigl  
+DTEND:20200331T140000Z  
 ... spousta dalsich radek ...
 
