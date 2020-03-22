@@ -8,7 +8,7 @@
 1. rozjed `./generate_calendar.sh` (linux/MacOS, na windowsech treba ve virtualboxu)   
    (je mozne pouzit i `generate_calendar.bat` pro windows, ale hodne jsem strilel od kolen, a spis to fungovat nebude,
    na win vam to muze omylem nainstalovat ics a requests moduly do system-wide pythonu)  
-   co by to melo delat:
+   co by to melo delat:  
    a) jestli neni v lokalnim adresari virtualni prostredi pro python3, vyrobi ho to a nainstaluje
       do nej dependencies (to se da udelat samostatne spustenim install_enviroment.sh)
       upozorneni: jestli nemate nainstalovane virtualenv tak vam ho to nainstaluje (not a big deal)
@@ -36,7 +36,7 @@
 
 1. jeslti pouzivats windows: na windows to jde proste blbe 
    (zkust imitovat to, co se ma dit v genereate_calendar.bat manualne v cmd)  
-   (taky to zkust spustit jako spravce)
+   (taky to zkus spustit jako spravce)
 
 2. jestli ti to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budes mit), 
    to muzes udelat manualne pip `install virtualenv` / `pip3 install virtualenv` a pak by ten kod mel dobehnout (snad)
