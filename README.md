@@ -35,7 +35,7 @@
 ## TROUBLESHOOTING
 
 0. je potreba python3, pip a pripojeni k internetu  
-   PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip`
+   PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip.py`
    PYTHON: pro instalaci python3 muzou ubuntari pouzit `sudo apt-get install python3`
    
 1. jeslti pouzivas windows: na windows to jde proste blbe 
@@ -43,7 +43,7 @@
    (taky to zkus spustit jako spravce)
 
 2. jestli ti to nejde na ubuntu, problem bude nejspis s instalovanim virtualenv (rekl bych ze to spis uz budes mit), 
-   to muzes udelat manualne pip `install virtualenv` / `pip3 install virtualenv` a pak by ten kod mel dobehnout (snad)
+   to muzes udelat manualne `pip install virtualenv` / `pip3 install virtualenv` a pak by ten kod mel dobehnout (snad)
 
 3. dosla ti trpelivost?  
    manualne si nainstaluj ics a request do system-wide pythonu  
