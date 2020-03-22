@@ -5,8 +5,10 @@
 ## JAK NA TO?
 
 1. rozjed generate_calendar.sh (linux/MacOS, na windowsech treba ve virtualboxu)
+
    (je mozne pouzit i generate_calendar.bat pro windows, ale hodne jsem strilel od oka, a spis to fungovat nebude)
     co by to melo delat:
+
     a) jestli neni v lokalnim adresari virtualni prostredi pro python3, vyrobi ho to a nainstaluje
        do nej dependencies (to se da udelat samostatne spustenim install_enviroment.sh)
        upozorneni: jestli nemate nainstalovane virtualenv tak vam ho to nainstaluje (not a big deal)
@@ -28,5 +30,5 @@
 
 4. chces neco odebrat? smaz stavajici kalendar a projed kroky 1 - 3
 
-4. qed, michal
+5. qed, michal
 
