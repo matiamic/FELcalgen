@@ -13,11 +13,11 @@
       do nej dependencies (to se da udelat samostatne spustenim install_enviroment.sh)
       upozorneni: jestli nemate nainstalovane virtualenv tak vam ho to nainstaluje (not a big deal)
 
-   b) rozjede to calgen.py, ktery se vas zepta, co chcete do toho kalendare a na jak dlouho
-      vstup muzete natahnout ze souboru felcal.in, to je ale spis demo, vic toho bude na netu, kde na
+   b) rozjede to calgen.py, ktery se te zepta, co chces do toho kalendare a na jak dlouho
+      vstup muzes natahnout ze souboru felcal.in, to je ale spis demo, vic toho bude na netu, kde na
       tom delame spolecne a je tam toho vic
       Pri stahovani z netu se pouzije URL ze souboru felcal_collabedit.txt, to odkazuje na ten spolecny soubor.
-      Pri prepsani na: http://collabedit.com/download?id=46b8p se vam natahne rozvrh z releasu, o ktery se
+      Pri prepsani na: http://collabedit.com/download?id=46b8p se ti natahne rozvrh z releasu, o ktery se
       zkousim starat a mela by tam byt vzdy validni data:)
 
 2. zaloz si novy kalendar(!!!), predevsim, aby slo vsechno naraz snadno odstranit cekam, ze se veci budou jeste menit
