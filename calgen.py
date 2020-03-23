@@ -9,23 +9,26 @@ import requests
 
 def get_event(file, calendar, program='', endtoken='INPUTEND') -> int:
     e = Event()
-    e.name = file.readline()[:-1]
-    if e.name == '':
-        return 0  # no more events in the input file
-    if e.name == endtoken:
-        return 0
-    if e.name[-3:] == 'END' or e.name[-5:] == 'START':
-        file.readline()
-        return 1  # just skip it
-    begin = arrow.get(file.readline()[:-1]).replace(tzinfo='Europe/Prague')
-    end = arrow.get(file.readline()[:-1]).replace(tzinfo='Europe/Prague')
-    e.begin = begin
-    e.end = end
-    e.description = file.readline()[:-1]
-    e.url = file.readline()[:-1]
-    e.location = file.readline()[:-1]
-    lecturers = file.readline()[:-1]
-    e.description += ' - ' + lecturers
+    try:
+        e.name = file.readline()[:-1]
+        if e.name == '':
+            return 0  # no more events in the input file
+        if e.name == endtoken:
+            return 0
+        if e.name[-3:] == 'END' or e.name[-5:] == 'START':
+            file.readline()
+            return 1  # just skip it
+        begin = arrow.get(file.readline()[:-1]).replace(tzinfo='Europe/Prague')
+        end = arrow.get(file.readline()[:-1]).replace(tzinfo='Europe/Prague')
+        e.begin = begin
+        e.end = end
+        e.description = file.readline()[:-1]
+        e.url = file.readline()[:-1]
+        e.location = file.readline()[:-1]
+        lecturers = file.readline()[:-1]
+        e.description += ' - ' + lecturers
+    except arrow.parser.ParserError:
+        print('Chybny vstup! Nekde bude asi preklep na collabeditu, pokud chces zaruku korektnich dat, prepis input_url.txt na "http://collabedit.com/download?id=46b8p"')
     if program and program not in e.name[e.name.index('['):]:
         file.readline()
         return 1  # dont make an event, go to the next record
