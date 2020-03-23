@@ -34,6 +34,8 @@
 
 ## TROUBLESHOOTING
 
+-1.dosla ti trpelivost uz ted, skoc na posledni bod troubleshootingu
+
 0. je potreba python3, pip a pripojeni k internetu  
    PIP: bude chybet casteji nez python, (nez ho budes instalovat, potrebujes python3), muzes ho nainstalovat pomoci `./troubleshooting/install_pip.sh`  
    PYTHON: pro instalaci python3 muzou ubuntari pouzit `sudo apt-get install python3`
